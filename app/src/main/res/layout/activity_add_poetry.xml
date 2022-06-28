@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Poetry"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_poetry_toobar"
+        app:title="Add Poetry"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:inputType="text"
+        android:hint="Add Poetry"
+        android:padding="10dp"
+        android:paddingRight="5dp"
+        android:id="@+id/add_poetry_data"
+        android:background="@drawable/edit_text_bk"
+
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/poet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bk"
+        android:hint="Enter Poet Name..."
+        android:inputType="text"
+        android:minHeight="60dp"
+        android:padding="10dp"
+        android:paddingRight="5dp"
+
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bk"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>

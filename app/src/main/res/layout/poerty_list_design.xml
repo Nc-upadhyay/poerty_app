@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="@color/ligh_gray"
+    >
+
+    <TextView
+        android:id="@+id/text_view_poet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:text="Mirza Poet"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_poerty_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:text="Hello World!, I'm Naveen chandra and i completed 3 year diploma in IT branch from polytechnic college dwarahat,Currnetly I am purshuing B.Tech in CSE branch from MAIT(Delhi),"
+        />
+
+    <TextView
+        android:id="@+id/text_view_poetry_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22/06/2022"
+        android:minHeight="20dp"
+       android:padding="5dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|right"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/poetry_updata"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/poetry_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="Delete" />
+    </LinearLayout>
+
+
+</LinearLayout>
